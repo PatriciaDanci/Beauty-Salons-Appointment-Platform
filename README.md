@@ -45,9 +45,13 @@ Cross-browser Testing: Ensured responsive design compatibility across different 
 Setup Instructions
 
 Clone the repository
+
 Navigate to the project directory
+
 Install frontend dependencies
+
 Start the frontend
+
 Start the backend (Spring Boot)
 
 
