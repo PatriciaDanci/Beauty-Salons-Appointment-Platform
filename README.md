@@ -6,19 +6,28 @@ Glamly is a modern web application designed for appointment booking at beauty sa
 Features
 
 User Authentication – Secure login and signup functionality.
+
 Service Browsing – Explore services like haircuts, manicures, and skincare treatments.
+
 Appointment Booking – Select a specialist, pick an available time slot, and confirm the booking.
+
 Appointment Management – Users can view upcoming and past appointments with status updates.
+
 Calendar Integration – View available slots dynamically and remove booked ones.
+
 Aesthetic UI/UX – A visually appealing and easy-to-use interface with a modern purple-themed design.
 
 -------------------------------
 Technologies Used
 
 Frontend: React.js, React Router, CSS
+
 Backend: Java (Spring Boot)
-Database: MySQL/PostgreSQL
+
+Database: MySQL
+
 API Communication: RESTful APIs
+
 State Management: Local Storage
 
 -------------------------------
