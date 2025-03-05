@@ -1,0 +1,35 @@
+/* Import the Dancing Script font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+header {
+  background: url('/images/picture2.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 7rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-family: 'Great Vibes', cursive;
+  font-style: italic;
+  font-size: 4rem;
+  margin: 0;
+  color: #5a105e
+}
+
+header nav {
+  display: flex;
+  gap: 15px;
+}
+
+header nav a {
+  color: #5a105e;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+header nav a:hover {
+  color: white; /* Optional: Change link color on hover */
+}

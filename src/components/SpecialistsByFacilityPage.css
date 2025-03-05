@@ -1,0 +1,25 @@
+.specialists-by-facility-page {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f3fc;
+  }
+  
+  .specialists-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .specialist-button {
+    background-color: #a874a8;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .specialist-button:hover {
+    background-color: #4a154b;
+  }
+  

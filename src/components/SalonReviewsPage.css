@@ -1,0 +1,51 @@
+/* Main container for the reviews page */
+.reviews-page {
+    padding: 20px;
+    background-color: #f7f3fc;
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+  }
+  
+  /* Header style */
+  .reviews-page h1 {
+    font-size: 2rem;
+    color: #4a154b;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Review card container */
+  .review-card {
+    background-color: #e9d8f3;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  /* Hover effect for review cards */
+  .review-card:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Text styling for review content */
+  .review-card p {
+    margin: 8px 0;
+    color: #6a3b6a;
+    line-height: 1.4;
+  }
+  
+  /* Highlighted text */
+  .review-card strong {
+    color: #4a154b;
+  }
+  
+  /* No reviews message */
+  .reviews-page-no-data {
+    font-size: 1.2rem;
+    color: #6a3b6a;
+    text-align: center;
+    margin-top: 20px;
+  }
+  

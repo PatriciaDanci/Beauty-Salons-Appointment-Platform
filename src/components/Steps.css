@@ -1,0 +1,23 @@
+.steps {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #f4f4f4;
+  }
+  
+  .steps div {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .steps h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: black;
+  }
+  
+  .steps p {
+    font-size: 1rem;
+    color: #555;
+  }
+  

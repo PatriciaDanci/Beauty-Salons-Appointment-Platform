@@ -1,0 +1,19 @@
+.facilities-by-specialist-page {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f3fc;
+  }
+  
+  .facilities-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .facility-item {
+    background-color: #e9d8f3;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  

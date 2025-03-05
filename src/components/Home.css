@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .home-header {
+    background: url('../images/picture2.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 7rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .home-header h1 {
+    font-family: 'Great Vibes'; /* Use an elegant artistic font */
+    font-style: italic;
+    font-size: 4rem; /* Increased size for more prominence */
+    margin: 0;
+    color: white; /* Aesthetic color to complement the design */
+  }
+  
+  .home-header nav a {
+    color: #5a105e;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.0rem; /* Slightly increase the size for better readability */
+  }
+  
+  .home-header nav a:hover {
+    color: white; /* Adds a hover effect to enhance interactivity */
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #f4f4f4;
+  }
+  
+  .steps div {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  

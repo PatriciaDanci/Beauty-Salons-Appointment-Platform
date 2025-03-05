@@ -1,0 +1,75 @@
+/* Appointments.css */
+
+.appointments-page {
+  font-family: "Arial", sans-serif;
+  padding: 2rem;
+  background-color: #f4f0fa; /* Light lavender background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.appointments-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #5e3aa6; /* Deep purple */
+}
+
+.appointments-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 800px;
+}
+
+.appointment-card {
+  background: #ffffff; /* White card background */
+  border: 1px solid #d1c4e9; /* Light purple border */
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 6px rgba(94, 58, 166, 0.1); /* Subtle purple shadow */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.appointment-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(94, 58, 166, 0.2); /* Stronger purple shadow */
+}
+
+.appointment-details p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #4a306d; /* Dark purple for text */
+}
+
+.appointment-details strong {
+  color: #5e3aa6; /* Deep purple for labels */
+}
+
+.no-appointments {
+  font-size: 1.5rem;
+  color: #5e3aa6; /* Deep purple */
+  margin-top: 2rem;
+}
+
+.appointment-card p {
+  font-weight: 500;
+}
+
+.appointment-card strong {
+  font-weight: 700;
+}
+
+/* Buttons or Status indicators */
+.status-finalized {
+  color: #a83279; /* Reddish-purple for finalized status */
+  font-weight: bold;
+}
+
+.status-upcoming {
+  color: #5e3aa6; /* Deep purple for upcoming status */
+  font-weight: bold;
+}
